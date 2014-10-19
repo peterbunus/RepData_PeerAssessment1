@@ -2,6 +2,7 @@
 
 ## Loading and preprocessing the data
 
+
 Download the data activity data file and unzip it in the current directory
 
 
