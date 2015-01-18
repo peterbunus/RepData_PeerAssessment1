@@ -3,7 +3,6 @@
 
 ## Loading and preprocessing the data
 
-
 Download the data activity data file and unzip it in the current directory
 
 
@@ -88,7 +87,9 @@ plot(levels(factor(activity_data2$interval)), steps_average, type = "l", col = "
 ```
 
 ![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9.png) 
+
 ### Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
+
 
 ```r
 index_max_steps_average <- names(which.max(steps_average))
